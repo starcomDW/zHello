@@ -1,5 +1,6 @@
 package one.basic;
 
+// after reset soft
 public class Experiment {
 
   private String name;
