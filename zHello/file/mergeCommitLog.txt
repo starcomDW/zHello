@@ -1,4 +1,5 @@
->>>>>> 3 >>>>> did a git pull merge in "Y"
+>>>>>> 3 >>>>> did a git pull merge in "Y" See below for details of the merge commit in eclipse
+
 commit e15573005d5b85f11d1b1604d2debb89aea7e010 (HEAD -> master)
 Merge: be85292 64c37b4
 Author: Dean <deanw@starcomsoft.com>
@@ -19,3 +20,33 @@ Author: Dean <deanw@starcomsoft.com>
 Date:   Thu Jan 11 10:28:02 2018 -0800
 
     adding pcr
+    
+================================================
+================================================
+merge commit details
+
+commit e15573005d5b85f11d1b1604d2debb89aea7e010
+Author: Dean <deanw@starcomsoft.com> 2018-01-11 10:28:48
+Committer: Dean <deanw@starcomsoft.com> 2018-01-11 10:28:48
+Parent: be85292ff819c12b04ee528037cbff521119f0f7 (updating readme)
+Parent: 64c37b49090e7da27d4311d3d63dd85c098803f6 (adding pcr)
+Child: 199bca268420a40b3af0dd6aa29194ecedd90899 (Adding merge commit example, will push this after ")
+Branches: b3, master, origin/b3, origin/master
+
+Merge branch 'master' of https://github.com/starcomDW/zHello.git
+
+
+===============
+
+git log --pretty=raw or
+git cat-file -p e15573005d5b85f11d1b1604d2debb89aea7e010
+
+give something like:
+
+tree 9d405f3920deefd003b58b1d0239dccc59f1e2a5
+parent be85292ff819c12b04ee528037cbff521119f0f7
+parent 64c37b49090e7da27d4311d3d63dd85c098803f6
+author Dean <deanw@starcomsoft.com> 1515695328 -0800
+committer Dean <deanw@starcomsoft.com> 1515695328 -0800
+
+Merge branch 'master' of https://github.com/starcomDW/zHello.git
