@@ -1,0 +1,21 @@
+>>>>>> 3 >>>>> did a git pull merge in "Y"
+commit e15573005d5b85f11d1b1604d2debb89aea7e010 (HEAD -> master)
+Merge: be85292 64c37b4
+Author: Dean <deanw@starcomsoft.com>
+Date:   Thu Jan 11 10:28:48 2018 -0800
+
+    Merge branch 'master' of https://github.com/starcomDW/zHello.git
+
+>>>>>> 2 >>>>> Did this in "Y", committed
+commit be85292ff819c12b04ee528037cbff521119f0f7
+Author: Dean <deanw@starcomsoft.com>
+Date:   Thu Jan 11 10:28:30 2018 -0800
+
+    updating readme
+
+>>>>>> 1 >>>>> did this in "X", committed and pushed
+commit 64c37b49090e7da27d4311d3d63dd85c098803f6 (origin/master)
+Author: Dean <deanw@starcomsoft.com>
+Date:   Thu Jan 11 10:28:02 2018 -0800
+
+    adding pcr
