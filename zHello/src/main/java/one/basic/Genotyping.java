@@ -13,6 +13,11 @@ public class Genotyping extends Experiment {
   public Genotyping(String name) {
     super(name);
   }
+  
+  public Genotyping(PCR source, String name) {
+    super(name);
+    pcrSource = source;
+  }
 
   public Collection<Genotype> getResults() {
     return results;
