@@ -24,3 +24,5 @@ Date:   Wed Jan 10 18:43:44 2018 -0800
     
 notice there's no merge commit and it looks like this commit was
 done after doing a pull of c5ccc6906b2597411844d0a117023ef480b2adec
+
+in other words it's a fast forward merge
