@@ -1,6 +1,5 @@
 package one.basic;
 
-
 public class Experiment {
 
   private String name;
