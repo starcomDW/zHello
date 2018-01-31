@@ -1,7 +1,5 @@
 package one.basic;
 
-// b1 this is from the merge
-// b2
 public class Experiment {
 
   private String name;
