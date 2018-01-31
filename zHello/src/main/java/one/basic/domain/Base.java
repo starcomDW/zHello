@@ -27,4 +27,8 @@ public enum Base {
   public Base getBase(String baseAsString) {
     return valueOf(baseAsString.toUpperCase());
   }
+  
+  public Base getBase(char baseAsChar) {
+    return valueOf(Character.toString(baseAsChar));
+  }
 }
