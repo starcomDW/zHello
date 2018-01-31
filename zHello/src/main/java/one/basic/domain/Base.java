@@ -23,4 +23,8 @@ public enum Base {
     
     throw new IllegalStateException("missing case: " + this);
   }
+  
+  public Base getBase(String baseAsString) {
+    return valueOf(baseAsString.toUpperCase());
+  }
 }
