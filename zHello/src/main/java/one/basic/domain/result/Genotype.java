@@ -2,11 +2,21 @@ package one.basic.domain.result;
 
 public class Genotype {
 
+  private String name;
+  
   private String category;
 
   private double confidence;
 
-  public String getCategory() {
+  public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public String getCategory() {
     return category;
   }
 
