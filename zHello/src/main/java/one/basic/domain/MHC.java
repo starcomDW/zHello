@@ -1,6 +1,7 @@
 package one.basic.domain;
 
 // Include NK??
+// Not now
 public enum MHC {
     HLA_A(MHC_CLASS.TYPE_I), HLA_B(MHC_CLASS.TYPE_I), HLA_C(MHC_CLASS.TYPE_I);
   
