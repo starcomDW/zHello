@@ -2,7 +2,7 @@ package one.basic.domain;
 
 public enum Base {
 
-  A, T, G, C;
+  A, T, G, C, U;
   
   public Base getComplement() {
     if (this == A) {
@@ -19,6 +19,10 @@ public enum Base {
     
     if (this == C) {
       return G;
+    }
+    
+    if (this == U) {
+      return U;
     }
     
     throw new IllegalStateException("missing case: " + this);
