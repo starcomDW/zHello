@@ -2,14 +2,24 @@ package one.basic.domain;
 
 public class Rule {
 
-	private String name;
+  private String name;
 
-	public String getName() {
-		return name;
-	}
+  private String description;
 
-	public void setName(String name) {
-		this.name = name;
-	}
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
+  }
 
 }
