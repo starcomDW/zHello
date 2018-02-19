@@ -1,5 +1,6 @@
 package one.basic.domain;
 
+// comment to revert after pushing
 public class Rule {
 
   private String name;
