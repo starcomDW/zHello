@@ -1,6 +1,6 @@
 package one.basic.service;
 
-// one
+// one xxx
 public class GenotypeCaluclator {
 
 }
