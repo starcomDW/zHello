@@ -1,6 +1,7 @@
 package one.basic;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
 
 import one.basic.domain.result.Genotype;
 
