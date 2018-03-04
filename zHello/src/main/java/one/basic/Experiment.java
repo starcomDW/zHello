@@ -2,7 +2,6 @@ package one.basic;
 
 import java.util.Date;
 
-// TODO make a change in b3
 public class Experiment {
 
   private String name;
