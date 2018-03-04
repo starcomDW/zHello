@@ -5,6 +5,7 @@ import java.util.Collection;
 
 import one.basic.domain.result.Genotype;
 
+// three
 public class Genotyping extends Experiment {
 
   private PCR pcrSource;

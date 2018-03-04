@@ -2,7 +2,6 @@ package one.basic;
 
 import one.basic.domain.Locus;
 
-// just tof check origin
 public class PCR extends Experiment {
 
 	private Locus locus;
