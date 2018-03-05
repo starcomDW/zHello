@@ -2,7 +2,6 @@ package one.basic;
 
 import java.util.Date;
 
-// one two three
 public class Experiment {
 
   private String name;
