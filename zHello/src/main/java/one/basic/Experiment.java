@@ -1,7 +1,7 @@
 package one.basic;
 
 import java.util.Date;
-//b4 change ws
+//b4 change ws, now make a change in t to test checkout
 public class Experiment {
 
   private String name;
