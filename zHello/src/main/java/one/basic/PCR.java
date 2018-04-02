@@ -20,4 +20,9 @@ public class PCR extends Experiment {
 		this.locus = locus;
 	}
 
+  @Override
+  public String toString() {
+    return "PCR [locus=" + locus + ", getName()=" + getName() + "]";
+  }
+
 }

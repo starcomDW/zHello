@@ -31,7 +31,10 @@ public class Genotyping extends Experiment {
   public void setPcrSource(PCR pcrSource) {
     this.pcrSource = pcrSource;
   }
-  
-  // add non conflicting change
+
+  @Override
+  public String toString() {
+    return "Genotyping [pcrSource=" + pcrSource + ", results=" + results + ", toString()=" + super.toString() + "]";
+  }
 
 }
