@@ -28,7 +28,7 @@ public class Experiment {
 
   @Override
   public String toString() {
-    return "Experiment [name=" + name + "]zz";
+    return "Experiment [name=" + name + "]";
   }
 
 }
