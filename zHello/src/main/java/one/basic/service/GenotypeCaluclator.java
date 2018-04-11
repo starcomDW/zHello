@@ -1,6 +1,6 @@
 package one.basic.service;
 
-// change after cleanup
+// want this change on master to stay, there's a b1 conflict with it
 public class GenotypeCaluclator {
 
 }
