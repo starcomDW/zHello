@@ -2,7 +2,8 @@ package one.basic;
 
 import one.basic.domain.Locus;
 
-// b4 change ws
+// make this change on b1, should merge in
+// and keep previous merged conflict in place
 public class PCR extends Experiment {
 
 	private Locus locus;
