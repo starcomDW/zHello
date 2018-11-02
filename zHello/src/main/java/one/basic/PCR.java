@@ -5,6 +5,7 @@ import one.basic.domain.Locus;
 // make this change on b1, should merge in
 // and keep previous merged conflict in place
 // change on master
+// b7 change
 public class PCR extends Experiment {
 
 	private Locus locus;
